@@ -1,0 +1,39 @@
+body{
+    font-family: Didot, Bodoni MT, Goudy Old Style, serif;
+}
+
+
+article {
+   background-color: #ffb3ec; 
+}
+
+header {
+    background-color: #e600ac;
+}
+
+nav {
+    background-color:darkturquoise;
+}
+
+li {
+
+}
+
+.navlinks:link { 
+    color:azure;
+
+}
+
+.navlinks:visited {
+    color: chartreuse;
+
+}
+
+h1
+
+h2
+
+.reference-image 
+
+p
+
