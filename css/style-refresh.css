@@ -1,0 +1,33 @@
+body {
+    margin: 0 auto;
+    max-width: 50em;
+}
+
+
+.page-wrapper {
+    background-color: #AE1293;
+    max-width: 100%;
+    min-height: 30em;
+}
+
+.banner-box {
+    background-color: #AE1293;
+    padding-top: 5em;
+}
+
+.random-box {
+    background-color: #AE1293;
+    background-image: url('../img/thumbnails/hedgehog01.JPG');
+    height: 37.5em;
+    margin: 0 auto;
+    width: 37.5em;
+}
+
+main {
+    min-height: 5em;
+    
+}
+
+footer {
+    min-height: 1em;
+}

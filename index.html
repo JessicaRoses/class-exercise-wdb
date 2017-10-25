@@ -5,7 +5,9 @@
     <meta charset="utf-8"/>
     <title>Jessica Roses Weekly Progress</title>
     <link rel="stylesheet" href="css/style.css" media="all">
-    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Quicksand" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/style-refresh.css" media="all">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Quicksand" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
     
@@ -28,8 +30,22 @@
     <div class="wrapper">
         <article>
         <p>This is the weekly progress of my coding skills.</p>
-        </article>
-    
-    
-    
+        </article>    
     </div>
+
+    <div class="page-wrapper">
+        <!--Fill this header with a random image on refresh-->
+        <div class="banner-box">
+            <header class="random-box" id="banner-load"></header>
+        </div>
+    </div>
+    
+      <script>
+        //Specify the images to use in the header.
+          var images = ['hedgehog01', 'hedgehog02', 'hedgehog03', 'hedgehog04', 'hedgehog05'];
+
+        //Define the class, then specify the folder that contains the images. Next pick one of the images using a bit of randomizing math. Finally, display that inside the #banner-load header.
+        $('<img class="fade-in" src="img/thumbnails/' + images[Math.floor(Math.random() * images.length)] + '">').appendTo('#banner-load');
+
+    </script>
+    
