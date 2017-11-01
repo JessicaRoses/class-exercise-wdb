@@ -122,8 +122,10 @@ p {
 
 .div1 {
     border: 0px #FFF;
-/*    z-index: 3;*/
 }
+
+.hedgehog
+{border: 0px #FFF;}
 
 .sunflower {
     position: absolute;
@@ -156,3 +158,25 @@ footer {
     padding-bottom: 20px; 
     clear: both;
 }
+
+
+@media only screen and (min-width: 20em) and (max-width: 29em) {
+    body {
+        background-color: #fff;
+    }
+    
+    /*Hide the navigation elements by default */
+    
+    .main-nav {
+        display: none;
+        position: static;
+    }
+    /*Display the'show menu' icon link */
+    .show-menu {
+        background-color: #0DD693;
+        display: block;
+    }
+    .main-nav li {
+        display: block;
+    }
+    

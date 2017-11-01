@@ -1,0 +1,77 @@
+{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1000px; 
+    margin-top: 50px;
+}
+
+.head {
+    text-align: center;
+}
+
+.gallery figure {
+    float: left;
+    height: 200px;
+    margin: 20px;
+    text-align: center;
+    width: 28%;
+}
+
+
+@font-face {
+    font-family: 'coalhandlukecoalhandluketrial';
+    src: url('coalhandluke_trial-webfont.woff2') format('woff2'),
+         url('coalhandluke_trial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'mechanicalregular';
+    src: url('mechanical-webfont.woff2') format('woff2'),
+         url('mechanical-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+a:link {
+    color:darkturquoise
+}
+
+a:visited {
+    color:cornflowerblue; 
+}
+
+a:hover {
+    color: #fff;
+}
+
+h1 {
+    font-family: 'coalhandlukecoalhandluketrial', serif;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+h2 {
+    font-family: 'coalhandlukecoalhandluketrial', serif;
+}
+
+p {
+    font-family: 'Rokkitt', serif;
+    width: 600px; 
+    text-align: left;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+footer {
+    margin-top: 300px;
+    margin-bottom: 50px;
+    font-family: 'Rokkitt', serif;
+    text-align: center;
+}

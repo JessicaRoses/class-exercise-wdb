@@ -1,0 +1,55 @@
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    width: 1000px; 
+    margin-top: 50px;
+}
+
+@font-face {
+    font-family: 'coalhandlukecoalhandluketrial';
+    src: url('coalhandluke_trial-webfont.woff2') format('woff2'),
+         url('coalhandluke_trial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'mechanicalregular';
+    src: url('mechanical-webfont.woff2') format('woff2'),
+         url('mechanical-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+a:visited; {
+    color: darkblue;
+}
+
+h1 {
+    font-family: 'coalhandlukecoalhandluketrial', serif;
+    padding-left: 10px;
+}
+
+h2 {
+    font-family: 'coalhandlukecoalhandluketrial', serif;
+}
+
+p {
+    font-family: 'Rokkitt', serif;
+    text-align: center;
+    width: 600px; 
+}
+
+article {
+    background-color: cornflowerblue;
+    width: 700px;
+    height: 300px;
+    padding-top: 5px;
+    padding-bottom: 5px; 
+}
