@@ -1,0 +1,553 @@
+{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1000px;
+    margin-top: 75px;
+    line-height: 1.8;
+}
+
+.head {
+    text-align: center;
+}
+
+.container-fluid {
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+
+.mybackground2 {
+    background: url(flowers-reduced-size.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    height: 450px;
+    width: 800px;
+}
+
+.mybackground3 {
+    background-color: #ffffff;
+    width: 800px;
+    padding-bottom: 10px;
+}
+
+
+.gallery figure {
+    float: left;
+    height: 200px;
+    margin: 20px;
+    text-align: center;
+    width: 28%;
+}
+
+@font-face {
+    font-family: 'coalhandlukecoalhandluketrial';
+    src: url('coalhandluke_trial-webfont.woff2') format('woff2'), url('coalhandluke_trial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mechanicalregular';
+    src: url('mechanical-webfont.woff2') format('woff2'), url('mechanical-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'coalhandlukecoalhandluketrial', serif;
+    color: #000000;
+    text-align: center;
+    font-size: 5.5em;
+}
+
+h2 {
+    font-family: 'coalhandlukecoalhandluketrial', serif;
+    color: #000000;
+    text-align: center;
+    margin-top: 5px;
+}
+
+p {
+    font-family: 'Rokkitt', serif;
+    color: #000000;
+    font-size: 150%;
+    line-height: 1.4em;
+    width: 800px;
+    text-align: left;
+    opacity: 1.0;
+    padding-left: 100px;
+    padding-right: 350px;
+}
+
+.background1 {
+    background-color: #ffffff;
+    opacity: 0.7;
+    width: 550px;
+    margin: inherit;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-family: 'Rokkitt', serif;
+    color: #000000;
+    font-size: 150%;
+    line-height: 1.4em;
+    text-align: center;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    width: 800px;
+}
+
+.col-sm-4 {
+    width: 237px;
+    height: 353px;
+    margin-left: 20px;
+    font-family: 'Rokkitt', serif;
+}
+
+.textsizelove {
+    
+}
+
+
+/*a styling*/
+
+h1:hover {
+    color: #000000 !important;
+    text-decoration: none;
+}
+
+h1:visited {
+    color: #000000 !important;
+    text-decoration: none;
+}
+
+h2:hover {
+    color: #000000 !important;
+    text-decoration: none;
+}
+
+h2:visited {
+    color: #000000 !important;
+    text-decoration: none;
+}
+
+a {
+    color: #000000;
+}
+
+a:hover {
+    color: #0DD69C !important;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #CB85D6;
+    text-decoration: none;
+}
+
+
+.charles-header {
+    float: left;
+    margin-left: 10px;
+    margin-top: -50px;
+}
+
+.charles-header:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+.charles-header:visited {
+    color: #000000;
+    text-decoration: none;
+}
+
+#charles2 {
+    color: #000000;
+    text-decoration: none;
+}
+
+
+/*People As Flowers Style Rules*/
+
+.people-flowers {
+    padding-top: 75px;
+    padding-bottom: 25px;
+}
+
+p2 {
+    font-family: 'Rokkitt', serif;
+    color: #000000;
+    font-size: 150%;
+    line-height: 1em;
+    text-align: left;
+    opacity: 1.0;
+    width: 400px;
+    padding-left: 100px;
+    padding-right: 350px;
+}
+
+
+p3 {
+    float: none;
+    font-family: 'Rokkitt', serif;
+    color: #000000;
+    font-size: 150%;
+    line-height: 1em;
+    text-align: left;
+    opacity: 1.0;
+    padding-left: 100px;
+    padding-right: 350px;
+}
+
+pre {
+    background-color: #ffffff;
+    border: 0px;
+    float: none;
+    font-family: 'Rokkitt', serif;
+    color: #000000;
+    font-size: 150%;
+    line-height: 1.4em;
+    text-align: left;
+    opacity: 1.0;
+    width: 400px;
+}
+
+
+/*For Jane*/
+
+.forjanebackground {
+    background: url(img/forjane2.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    height: 350px;
+    width: 800px;
+}
+
+.forjanebackground2 {
+    background: url(img/forjane3.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    height: 350px;
+    width: 800px;
+}
+
+.forjanebackground3 {
+    background: url(img/forjane4.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    height: 350px;
+    width: 800px;
+}
+
+.forjanebackground4 {
+    background: url(img/forjane1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    height: 350px;
+    width: 800px;
+}
+
+.forjanetext {
+    font-family: 'Rokkitt', serif;
+    color: #000000;
+    font-size: 150%;
+    line-height: 1.4em;
+    width: 800px;
+    text-align: left;
+    opacity: 1.0;
+    padding-left: 100px;
+    padding-right: 350px;
+}
+
+.janewhite {
+    background-color: #ffffff;
+    opacity: .7;
+    width: 300px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.whitespace {
+    background-color: #ffffff;
+    height: 50px;
+}
+
+
+/*when you wait styling*/
+
+.whenwaitbackground {
+    background: url(img/whenwait.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    height: 350px;
+    width: 800px;
+}
+
+.whenwaitbackground2 {
+    background: url(img/whenwait1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    height: 350px;
+    width: 800px;
+}
+
+.whenwaitbackground3 {
+    background: url(img/whenwait3.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    height: 350px;
+    width: 800px;
+}
+
+.whenwaitbackground4 {
+    background: url(img/whenwait4.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    height: 350px;
+    width: 800px;
+}
+
+.whenwaitbackground5 {
+    background: url(img/whenwait5.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    height: 350px;
+    width: 800px;
+}
+
+.whenwaitwidth {
+    width: 475px;
+}
+
+.whenwaitwhite {
+    background-color: #ffffff;
+    opacity: .7;
+    width: 300px;
+    margin-left: 150.5px;
+    margin-right: 150.5px;
+}
+
+
+/*factorum drag and drop*/
+
+#div1 {
+    float: left;
+    margin-left: 150px;
+}
+
+#div2 {
+    float: right;
+    position: absolute;
+    margin-left: 450px;
+}
+
+.whitespacedrag {
+    width: 1000px;
+    height: 500px;
+}
+
+
+/*factorum 2*/
+
+.factorum2 {
+    background: url(img/factorum2.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    height: 700px;
+    width: 625px;
+    margin: auto;
+}
+
+.factorumwhite {
+    background-color: #ffffff;
+    opacity: .8;
+    width: 500px;
+    margin-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    text-align: left;
+}
+
+.factoump {
+    width: 300px;
+}
+
+#factotumstyle {
+    margin-left: 30px;
+    padding-left: 0px;
+}
+
+/*a love poem*/
+
+.alovepoemtext {
+    text-align: center;
+    width: 400px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.video-clip-content {
+    float: none;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+/*van gogh*/
+
+.vangoghbackground1 {
+    background: url(img/vangogh1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    height: 400px;
+    width: 800px;
+}
+
+.vangoghbackground2 {
+    background: url(img/vangogh2.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    height: 400px;
+    width: 800px;
+}
+
+.vangoghbackground3 {
+    background: url(img/vangogh3.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    height: 400px;
+    width: 800px;
+}
+
+.vangoghbackground4 {
+    background: url(img/vangogh4.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    height: 400px;
+    width: 800px;
+}
+
+.vangoghbackground5 {
+    background: url(img/vangogh5.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    height: 400px;
+    width: 800px;
+}
+
+.vangoghwhite {
+    background-color: #ffffff;
+    opacity: .7;
+    width: 300px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.vangoghwidth {
+    width: 350px;
+}
+
+/*for the girls and the birds*/
+
+.forthebackground1 {
+    background: url(img/forthegirls.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    height: 1275px;
+    width: 800px;
+}
+
+/*beagle*/
+
+.random-box {
+    background-image: url(img/beagle5.png)
+    background-image: url('../img/thumbnails/image-6.jpg');
+    height: 450px;
+    margin: 0 auto;
+    width: 800px;
+}
+
+.beagle {
+    margin-left: 200px;
+    text-align: center;
+    width: 600px;
+}
+
+#beagleclick {
+    text-align: center;
+    color: #d3d3d3;
+    text-decoration: none;
+}
+
+#beagleclick:hover {
+    text-align: center;
+    color: #d3d3d3;
+    text-decoration: none;
+}
+
+#fotoramabeagle {
+    height: 700px;
+}
+
+
+/*
+.page-wrapper {
+    background-color: lightblue;
+    max-width: 100%;
+    min-height: 30em;
+}
+*/
+
+/*contact form*/
+
+.contactimg {
+    width: 710px;
+    margin-left: 145px;
+    margin-right: 145px;
+}
+
+.form-group {
+    color: #000000;
+    font-family: 'Rokkitt', serif;
+    font-size: 150%;
+    line-height: 1.4em;
+    width: 700px;
+    margin-left: 150px;
+}
+
+
+#exampleFormControlTextarea1 {
+    height: 34px;
+}
+
+.btn {
+    color: #fff;
+    background-color: #CB85D6;
+    border-color: #CB85D6;
+    font-family: 'Rokkitt', serif;
+    font-size: 18px;
+    margin-left: 150px;
+    margin-top: 30px;
+
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #CB85D6;
+    border-color: #CB85D6;
+    font-family: 'Rokkitt', serif;
+
+}
