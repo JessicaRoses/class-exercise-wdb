@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Charles Bukowski Illustrated</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/style.css" media="all" rel="stylesheet">
+    <link href="css/stylesheet.css" media="all" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Rokkitt" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+
+    <script>
+        function allowDrop(ev) {
+            ev.preventDefault();
+        }
+
+        function drag(ev) {
+            ev.dataTransfer.setData("text", ev.target.id);
+        }
+
+        function drop(ev) {
+            ev.preventDefault();
+            var data = ev.dataTransfer.getData("text");
+            ev.target.appendChild(document.getElementById(data));
+        }
+
+        function drop(ev) {
+            window.open("factoum2.html")
+        }
+
+    </script>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="charles-header">
+            <h2><a href="final-index.html" id="charles2">Charles Bukowski</a></h2>
+            <h2>Illustrated</h2>
+        </div>
+        <div class="people-flowers">
+            <h2>Drag Bukowski to his Liquor</h2>
+        </div>
+    </header>
+
+<div class="whitespacedrag">
+    <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img src="img/charlesbukowski.png" draggable="true" ondragstart="drag(event)" id="drag1" width="450" height="450">
+    </div>
+
+    <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img src="img/bottle.png" droppable="true" width="450" height="450">
+    </div>
+    </div>
+
+    <footer><a href="final-index.html">Home</a> • <a href="alovepoem.html"> “A Love Poem” </a> • <a href="beagle.html">“Beagle”</a> • <a href="factoum.html">“Factotum”</a> • <a href="for-jane.html">“For Jane: With All The Love I Had, Which Was Not Enough:”</a>• <a href="forthegirls.html">“The Girls And The Birds”</a> • <a href="people-as-flowers.html">“People As Flowers”</a>• <a href="when-you-wait.html">“When You Wait For The Dawn To Crawl Through The Screen Like A Burglar To Take Your Life Away”</a> • <a href="vangogh.html">“Van Gogh”</a> • <a href="contact.html">Contact</a>
+    </footer>
+
+
+</body>
+
+</html>
